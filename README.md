@@ -1,6 +1,7 @@
 # Neural
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
+Simple neural network example.
+Inspired by [Fun Fun Function](https://www.youtube.com/watch?v=o98qlvrcqiU)
 
 ## Development server
 
