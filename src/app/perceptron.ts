@@ -29,7 +29,7 @@ export class Perceptron {
     const trainPoint = (weight, point, team) => {
       const guessResult = this.guess(weight, point); // take a guess
       const error = team - guessResult; // calculate error (actual team - guess)
-      const learningRate = 0.01; // learning rate constant, value may differ from case to case for ML
+      const learningRate = 0.1; // learning rate constant, value may differ from case to case for ML
       // Calculate adjusted weight
       return {
         x: weight.x + point.x * error * learningRate,
